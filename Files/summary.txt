@@ -1,0 +1,7 @@
+Hybrid modeling summary
+THRESHOLD = 50.0
+Train/Test shapes: (5759, 73) (692, 73)
+Event rates (train/test): 0.6253 / 0.6012
+Classifier predicts 377 events on 692 test rows
+Hybrid MAE: 35.1537
+Hybrid RMSE: 46.9601

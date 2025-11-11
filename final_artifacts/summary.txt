@@ -1,0 +1,29 @@
+Hybrid model final summary
+Best combo: RandomForest + RandomForestReg
+Prob-weighted MAE (final): 33.2781, RMSE: 45.9039
+Hard (best_th=0.330) MAE: 39.0618, RMSE: 47.8379
+Classifier ROC-AUC (calibrated): 0.8786
+Top classifier permutation importance:
+             feature  mean_decrease_auc      std
+            Up_lag_1           0.041639 0.008706
+                  sp           0.034137 0.006469
+            Up_lag_2           0.006002 0.004303
+            sp_lag_1           0.004954 0.002632
+                Down           0.003286 0.002337
+            sp_lag_2           0.002219 0.001179
+            hour_sin           0.000934 0.001493
+precipitation_amount           0.000618 0.000283
+            pressure           0.000466 0.000447
+            sp_lag_3           0.000461 0.000758
+Top regressor permutation importance:
+               feature  mean_decrease_negMAE      std  mean_increase_MAE
+                    sp             -0.040476 0.002785           0.040476
+             Up_lag_12             -0.017577 0.001539           0.017577
+              Up_lag_1             -0.017072 0.002727           0.017072
+              Up_lag_2             -0.011640 0.000673           0.011640
+              Up_lag_3             -0.008103 0.000453           0.008103
+              Up_lag_6             -0.005583 0.000907           0.005583
+             sp_lag_12             -0.002748 0.000284           0.002748
+                  Down             -0.002431 0.000255           0.002431
+air_temperature_lag_24             -0.002430 0.000320           0.002430
+          Up_Cap_lag_2             -0.001930 0.000552           0.001930
