@@ -31,7 +31,7 @@ Short-term aFRR forecasting is a **dual challenge**:
 2. **Regression:** If an event occurs, what is the *magnitude* of the up-regulation?
 
 ### Hybrid Approach
-We design a **two-stage hybrid model**:
+I designed a **two-stage hybrid model**:
 1. **Stage 1 (Classifier):** Predict the probability of an Up event (`P(event)`).
 2. **Stage 2 (Regressor):** Predict the expected magnitude of Up given that event.
 3. **Final Prediction:**  
@@ -210,7 +210,6 @@ aFRR-forecasting/
 │   │   └── hybrid_error_hist.png
 │   └── summary.txt
 │
-├── data/               # (optional placeholder for input dataset)
 ├── requirements.txt
 └── README.md
 ```
