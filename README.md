@@ -228,7 +228,7 @@ aFRR-forecasting/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
@@ -253,7 +253,7 @@ aFRR-forecasting/
 
 ---
 
-## 📚 Potential Extensions
+## Potential Extensions
 
 - Incorporate **renewable generation** (wind, solar) as external regressors.  
 - Use **multi-step forecasting** for 6–24 hour horizon.  
@@ -263,7 +263,7 @@ aFRR-forecasting/
 
 ---
 
-## 🌍 Impact
+## Impact
 
 Accurate short-term aFRR forecasting supports:
 - **Sustainable grid management**  
